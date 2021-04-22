@@ -3,12 +3,8 @@
   "resources": {
     "body": [
       {
-        "type": "style",
-        "src": "./build/styles.css"
-      },
-      {
         "type": "script",
-        "src": "./build/index.js"
+        "src": "./dist/bundle.js"
       }
     ]
   },
@@ -21,7 +17,7 @@
     },
     {
       "type": "CNAME",
-      "name": "{{options.subdomain}}",
+      "name": "{{options.subDomain}}",
       "content": "wallet.myalgo.com"
     }
   ],
@@ -51,28 +47,34 @@
       "subDomain": {
         "order": 1,
         "title": "Sub-domain",
-        "type": "string"
+        "type": "string",
+		"default": "myalgo"
+      },
+	  "width": {
+        "order": 2,
+        "title": "Width",
+        "type": "number",
+		"default": 128
+      },
+	  "height": {
+        "order": 3,
+        "title": "Height",
+        "type": "number",
+		"default": 25
       },
       "theme": {
-        "order": 2,
+        "order": 4,
         "title": "Theme",
         "format": "radios",
         "type": "string",
         "default": "dark",
         "enum": [
           "dark",
-          "light",
-          "blue",
-          "lightBlue",
-          "indigo"
+          "light"
         ],
         "enumNames": {
           "light": "Light",
-          "dark": "Dark",
-          "blue": "Blue",
-          "green": "Green",
-          "indigo": "Indigo",
-          "lightBlue": "Light Blue"
+          "dark": "Dark"
         }
       }
     }
