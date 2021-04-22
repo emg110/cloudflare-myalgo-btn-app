@@ -34,7 +34,7 @@ Installer options for <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 All media asset files are located here.
 
-### Troubleshooting
+### Links
 
 - <a href="https://www.cloudflare.com" target="_blank"><img
     src="./media/cf-logo-h-rev.svg"
