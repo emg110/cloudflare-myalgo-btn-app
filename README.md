@@ -32,30 +32,32 @@ Installer options for <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 #### `media/**`
 
-All media asset files are located here. CloudFlare media templates and sketches can be a very profound start for any CloudFlare APP:
-
-[Download <code class="inline">media-templates.sketch</code>](https://github.com/CloudflareApps/MediaTemplates/raw/master/media-templates.sketch)
+All media asset files are located here.
 
 ### Troubleshooting
 
-- <a href="https://www.cloudflare.com" target="_blank">Cloudflare </a> platform & service.
+- <script data-cfbadgetype="c" data-cfbadgeskin="dkblue" type="text/javascript">
+//<![CDATA[
+try{window.CloudFlare||function(){var a=window.document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];window.CloudFlare=[];b.type="text/javascript";b.async=!0;b.src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a(["cloudflare/badge"])})}catch(e$$5){try{console.error("CloudFlare badge code could not be loaded. "+e$$5.message)}catch(e$$6){}};
+//]]>
+</script>
   
-- <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button">
+- <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button" target="_blank">
   <img
     src="https://install.cloudflareapps.com/install-button.png"
     alt="Install MyAlgo Button App"
     border="0"
     width="150"
-    target="_blank">
+    >
 </a>
 
-- <a href="https://wallet.myalgo.com/home">
+- <a href="https://wallet.myalgo.com/home" target="_blank">
   <img
     src="./media/MyAlgoFullBlue.svg"
     alt="MyAlgo Wallet Home"
     border="0"
     width="150"
-    target="_blank">
+    >
 </a>
 
 
