@@ -13,30 +13,48 @@
     "url": "git+https://github.com/emg110/cloudflare-myalgo-btn-app.git"
   },
   "author": "M.Ghiasi [emg110@gmail.com]",
+  "contributors": [
+    {
+      "name": "M.Ghiasi",
+      "email": "emg110@gmail.com"
+    },
+    {
+      "name": "Sheghzo",
+      "email": "shm1358110@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/emg110/cloudflare-myalgo-btn-app/issues"
   },
   "homepage": "https://github.com/emg110/cloudflare-myalgo-btn-app#readme",
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "babel-core": "^6.24.0",
-    "babel-eslint": "^7.1.1",
-    "babel-loader": "^6.4.1",
-    "babel-preset-env": "^1.2.2",
-    "css-loader": "^0.27.3",
-    "extract-loader": "^0.1.0",
-    "file-loader": "^0.10.1",
-    "postcss-loader": "^1.3.3",
-    "standard": "^9.0.1",
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
+   
+   
+    "autoprefixer": "^10.2.5",
+    "@babel/eslint-parser": "^7.13.14",
+
+
+  
+    "css-loader": "^5.2.4",
+    "extract-loader": "^5.1.0",
+
+    "postcss-loader": "^5.2.0",
+    "standard": "^16.0.3",
     "standard-format-loader": "^1.1.2",
-    "standard-loader": "^6.0.1",
-    "style-loader": "^0.14.1",
-    "svg-inline-loader": "^0.8.0",
-    "webpack": "^2.2.1"
+    "standard-loader": "^7.0.0",
+    "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
+     "webpack": "4.42.1"
+ 
   },
   "standard": {
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
     "globals": [
       "INSTALL",
       "INSTALL_OPTIONS",

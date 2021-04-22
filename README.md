@@ -45,8 +45,10 @@ All media asset files are located here. CloudFlare media templates and sketches 
     alt="MyAlgo Wallet Home"
     border="0"
     width="150">
-    MyAlgo Wallet Powered by  © Rand Labs
+      MyAlgo Wallet Powered by  © Rand Labs
 </a>
+
+
 <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button">
   <img
     src="https://install.cloudflareapps.com/install-button.png"
