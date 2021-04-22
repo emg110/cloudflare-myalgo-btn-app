@@ -38,7 +38,7 @@ All media asset files are located here. CloudFlare media templates and sketches 
 
 ### Troubleshooting
 
-- <a href="https://www.cloudflare.com/apps/developer/docs/getting-started">The Cloudflare developer documentation</a> for examples and API usage.
+- <a href="https://www.cloudflare.com">The great Cloudflare </a> platform & service.
 - <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button">
   <img
     src="https://install.cloudflareapps.com/install-button.png"
