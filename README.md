@@ -36,11 +36,12 @@ All media asset files are located here.
 
 ### Troubleshooting
 
-- <script data-cfbadgetype="c" data-cfbadgeskin="dkblue" type="text/javascript">
-//<![CDATA[
-try{window.CloudFlare||function(){var a=window.document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];window.CloudFlare=[];b.type="text/javascript";b.async=!0;b.src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a(["cloudflare/badge"])})}catch(e$$5){try{console.error("CloudFlare badge code could not be loaded. "+e$$5.message)}catch(e$$6){}};
-//]]>
-</script>
+- <a href="https://www.cloudflare.com" target="_blank"><img
+    src="./media/cf-logo-h-rev.svg"
+    alt="Install MyAlgo Button App"
+    border="0"
+    width="150"
+    ></a>
   
 - <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button" target="_blank">
   <img
