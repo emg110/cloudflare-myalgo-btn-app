@@ -38,7 +38,7 @@ All media asset files are located here.
 
 - <a href="https://www.cloudflare.com" target="_blank">
   <img
-    src="./media/cf-logo-h-rev.svg"
+    src="./media/cf-logo-h.svg"
     alt="CloudFlare Platform & Services"
     border="0"
     width="150"
