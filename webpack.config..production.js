@@ -1,18 +1,15 @@
 const path = require('path')
-const webpack = require('webpack')
 const CURRENT_WORKING_DIR = process.cwd()
 
 const config = {
-    name: "browser",
-    mode: "development",
-    devtool: 'eval-source-map',
+    mode: "production",
     entry: [
         path.join(CURRENT_WORKING_DIR, 'source/app.js')
     ],
     output: {
         path: path.join(CURRENT_WORKING_DIR , '/dist'),
         filename: 'bundle.js',
-        publicPath: '/dist/'
+        publicPath: "/dist/"
     },
     module: {
         rules: [
@@ -46,10 +43,7 @@ const config = {
                 use: 'file-loader'
             }
         ]
-    },  plugins: [
-          new webpack.HotModuleReplacementPlugin(),
-          new webpack.NoEmitOnErrorsPlugin()
-      ]
+    }
 }
 
 module.exports = config

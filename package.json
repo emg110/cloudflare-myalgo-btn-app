@@ -4,8 +4,8 @@
   "description": "This CloudFlare APP integrates MyAlgo wallet link button and redirector subdomain to CloudFlare sites",
   "private": true,
   "scripts": {
-    "start": "webpack --watch --colors",
-    "build": "NODE_ENV=production webpack --colors",
+    "start": "set NODE_ENV=development && webpack --watch",
+    "build": "set NODE_ENV=production && webpack",
     "lint": "standard --fix ./source/**/*.js || true"
   },
   "repository": {
@@ -30,28 +30,25 @@
   "homepage": "https://github.com/emg110/cloudflare-myalgo-btn-app#readme",
   "devDependencies": {
     "@babel/core": "^7.13.16",
+    "@babel/eslint-parser": "^7.13.14",
     "@babel/preset-env": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
-    "babel-loader": "^8.2.2",
-    "file-loader": "^6.2.0",
-   
-   
     "autoprefixer": "^10.2.5",
-    "@babel/eslint-parser": "^7.13.14",
-
-
-  
+    "babel-loader": "^8.2.2",
     "css-loader": "^5.2.4",
     "extract-loader": "^5.1.0",
-
+    "file-loader": "^6.2.0",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^5.2.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^8.0.2",
     "standard": "^16.0.3",
     "standard-format-loader": "^1.1.2",
     "standard-loader": "^7.0.0",
     "style-loader": "^2.0.0",
     "svg-inline-loader": "^0.8.2",
-     "webpack": "4.42.1"
- 
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
   },
   "standard": {
     "parser": "@babel/eslint-parser",
