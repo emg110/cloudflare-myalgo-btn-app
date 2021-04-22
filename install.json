@@ -28,7 +28,9 @@
   "preview": {
     "handlers": [
       {
-        "options": ["_default"],
+        "options": [
+          "_default"
+        ],
         "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
       }
     ]
@@ -46,8 +48,9 @@
           "method": "prepend"
         }
       },
-      "subdomain": {
-        "title": "Subdomain",
+      "subDomain": {
+        "order": 1,
+        "title": "Sub-domain",
         "type": "string"
       },
       "theme": {
@@ -61,7 +64,7 @@
           "light",
           "blue",
           "lightBlue",
-          "indigo",
+          "indigo"
         ],
         "enumNames": {
           "light": "Light",
@@ -71,14 +74,6 @@
           "indigo": "Indigo",
           "lightBlue": "Light Blue"
         }
-      },
-      "message": {
-        "title": "Message",
-        "description": "A short example message.",
-        "type": "string",
-        "format": "richtext",
-        "order": 1,
-        "default": "<h1>Welcome to Cloudflare Apps!</h1><p>Download this app every time you want to make a new project.</p><p>This app renders a message to the user's website and sets a TXT DNS record with a value of 'Hello DNS'."
       }
     }
   }
