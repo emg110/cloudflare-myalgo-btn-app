@@ -38,14 +38,14 @@ All media asset files are located here. CloudFlare media templates and sketches 
 
 ### Troubleshooting
 
-- <a href="https://www.cloudflare.com">The great Cloudflare </a> platform & service.
+- <a href="https://www.cloudflare.com">Cloudflare </a> platform & service.
   
 - <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button">
   <img
     src="https://install.cloudflareapps.com/install-button.png"
     alt="Install MyAlgo Button App"
     border="0"
-    width="150">Install MyAlgo Button App
+    width="150">
 </a>
 
 - <a href="https://wallet.myalgo.com/home">
