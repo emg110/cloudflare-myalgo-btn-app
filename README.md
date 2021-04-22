@@ -34,6 +34,17 @@ Installer options for <a href="https://www.cloudflare.com/apps/developer/docs/in
 
 All media asset files are located here.
 
+### Direct installation on CloudFlare App
+
+- <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button" target="_blank">
+  <img
+    src="https://install.cloudflareapps.com/install-button.png"
+    alt="Install MyAlgo Button App"
+    border="0"
+    width="150"
+    >
+</a>
+
 ### Links
 
 - <a href="https://www.cloudflare.com" target="_blank">
@@ -45,15 +56,6 @@ All media asset files are located here.
     >
 </a>
   
-  
-- <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button" target="_blank">
-  <img
-    src="https://install.cloudflareapps.com/install-button.png"
-    alt="Install MyAlgo Button App"
-    border="0"
-    width="150"
-    >
-</a>
 
 - <a href="https://wallet.myalgo.com/home" target="_blank">
   <img
