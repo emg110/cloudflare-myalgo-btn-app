@@ -1,0 +1,77 @@
+/* Set the app attribute to your app's dash-delimited alias. */
+cloudflare-app[app="cloudflare-myalgo-btn-app"] {
+  display: inline-block;
+  font-size: 16px;
+}
+
+cloudflare-app[app="cloudflare-myalgo-btn-app"] .logo-container {
+  display: block;
+  height: 3.5em;
+  padding: 0 1em;
+  border-radius: 2px;
+  box-shadow: inset 0 -1px rgba(0, 0, 0, .21);
+}
+
+cloudflare-app[app="cloudflare-myalgo-btn-app"] .logo-container .cf-logo {
+  display: block;
+  width: auto;
+  height: 100%;
+}
+
+
+cloudflare-app .cf-text,
+cloudflare-app .cf-cloudfront,
+cloudflare-app .cf-cloudback {
+  fill: #fff;
+}
+
+cloudflare-app .cf-flare {
+  fill: transparent;
+}
+
+cloudflare-app[data-theme="light"] .logo-container {
+  background-color: #fff;
+}
+
+cloudflare-app[data-theme="light"] .cf-text {
+  fill: #404041;
+}
+
+cloudflare-app[data-theme="dark"] .logo-container {
+  background-color: #404041;
+}
+
+cloudflare-app .cf-cloudfront,
+cloudflare-app .cf-cloudfront {
+  fill: #f38020;
+}
+
+cloudflare-app .cf-cloudback,
+cloudflare-app .cf-cloudback {
+  fill: #faae40;
+}
+
+cloudflare-app .cf-flare,
+cloudflare-app .cf-flare {
+  fill: #fff;
+}
+
+cloudflare-app[data-theme="green"] .logo-container {
+  background-color: #85cba8;
+}
+
+cloudflare-app[data-theme="blue"] .logo-container {
+  background-color: #408bc9;
+}
+
+cloudflare-app[data-theme="lightBlue"] .logo-container {
+  background-color: #76c4e2;
+}
+
+cloudflare-app[data-theme="indigo"] .logo-container {
+  background-color: #8176b5;
+}
+
+cloudflare-app[data-theme="purple"] .logo-container {
+  background-color: #ba77b1;
+}
