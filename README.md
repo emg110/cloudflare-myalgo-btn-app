@@ -36,12 +36,15 @@ All media asset files are located here.
 
 ### Links
 
-- <a href="https://www.cloudflare.com" target="_blank"><img
+- <a href="https://www.cloudflare.com" target="_blank">
+  <img
     src="./media/cf-logo-h-rev.svg"
-    alt="Install MyAlgo Button App"
+    alt="CloudFlare Platform & Services"
     border="0"
     width="150"
-    ></a>
+    >
+</a>
+  
   
 - <a href="https://www.cloudflare.com/apps/cloudflare-myalgo-btn-app/install?source=button" target="_blank">
   <img
