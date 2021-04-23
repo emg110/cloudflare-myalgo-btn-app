@@ -33,7 +33,7 @@ APP styles are located here.
 
 #### `install.json`
 
-Installer options for <a href="https://www.cloudflare.com/apps/developer/docs/install-json">CloudFlare MyAlgo Button App</a> and complementary APP metadata, go here.
+ <a href="https://www.cloudflare.com/apps/developer/docs/install-json">Installer options</a> for CloudFlare MyAlgo Button App and configuration parameters, go here.
 
 <a href="http://install.json.is/">JSON schema syntaxing is used</a>, hence the use of related editors and linting tools are recommended.
 
