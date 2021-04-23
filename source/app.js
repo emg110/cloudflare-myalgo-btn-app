@@ -52,7 +52,7 @@
 	
 	let viewBoxW = options.width && Number(options.width) > 0 ? Number(options.width) : width;
 	let viewBoxH = options.height && Number(options.height) > 0 ? Number(options.height) : height;
-	let viewBoxStr = `0 0 ${viewBoxW} ${viewBoxH}`
+	let viewBoxStr = `"0 0 ${viewBoxW} ${viewBoxH}"`
 		let srcLogoTextLight = `<svg xmlns="http://www.w3.org/2000/svg" viewBox=${viewBoxStr}>
     <defs>
         <style>

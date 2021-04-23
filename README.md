@@ -1,10 +1,10 @@
 ![myalgo-logo](./media/my-algo.png)
 # CloudFlare MyAlgo Button App
 
-Let your visitors call or refer to their MyAlgo Wallet directly from your website.
+Let your visitors summon their MyAlgo Wallet directly from your website.
 This is the simplest way of integrating MyAlgo wallet to your website!
-This APP will create a button and a subdomain CNAME record, based on your declared subdomain name parameter value during installation, on your site's DNS, by the name of YOUR-SUB-DOMAIN.YOUR-DOMAIN-NAME.
-This way the myalgo subdomain of your website will be always redirecting to wallet.myalgo.com and there is a customizable button on your landing page to call it.
+This APP will create a button and a subdomain CNAME record, based on your declared subdomain name parameter value during installation, on your site's DNS, by the name of YOUR-SUB-DOMAIN.YOUR-DOMAIN-NAME (e.g. myalgo.yourdomain.com).
+This way the myalgo subdomain of your website will be always pointing to MyAlgo wallet access URL while there is a customizable button on your site to call it.
 
 ## Usage
 
@@ -66,7 +66,11 @@ All media asset files are located here.
     >
 </a>
 
+## Finale
 
+Author wishes to give thanks and salute both `Algorand` & `CloudFlare` platforms and services, also all amzing opensource libraries used to write & build this code.
+
+As an Algorand ambassidor author intends to contribute more complex and handy tools to strenthen the integration between these two amazing services, started by this tiny , simple and humble one button App!
 
 
 
