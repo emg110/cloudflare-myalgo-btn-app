@@ -45,6 +45,14 @@ All media asset files are located here.
     >
 </a>
 
+
+## Author's message
+
+Author wishes to give thanks and salute both `Algorand` & `CloudFlare` platforms and services, also all amzing opensource libraries used to write & build this code.
+
+As an Algorand ambassidor author intends to contribute more complex and handy tools to strenthen the integration between these two amazing services, started by this tiny , simple and humble one button App!
+
+
 ### Links
 
 - <a href="https://www.cloudflare.com" target="_blank">
@@ -65,12 +73,6 @@ All media asset files are located here.
     width="150"
     >
 </a>
-
-## Finale
-
-Author wishes to give thanks and salute both `Algorand` & `CloudFlare` platforms and services, also all amzing opensource libraries used to write & build this code.
-
-As an Algorand ambassidor author intends to contribute more complex and handy tools to strenthen the integration between these two amazing services, started by this tiny , simple and humble one button App!
 
 
 
