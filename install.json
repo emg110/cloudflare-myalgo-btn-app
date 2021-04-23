@@ -48,20 +48,20 @@
         "order": 1,
         "title": "Sub-domain",
         "type": "string",
-		"default": "myalgo"
+        "default": "myalgo"
       },
-	  "width": {
+      "width": {
         "order": 2,
         "title": "Width",
         "type": "number",
-		"default": 0
+        "default": 0
       },
-	  "height": {
+      "height": {
         "order": 3,
         "title": "Height",
         "type": "number",
-		"default": 0
-      },	
+        "default": 0
+      },
       "theme": {
         "order": 5,
         "title": "Theme",
@@ -69,18 +69,17 @@
         "type": "string",
         "default": "original",
         "enum": [
-			"light",
-			"dark",
-			"original"
-          
+          "light",
+          "dark",
+          "original"
         ],
         "enumNames": {
           "light": "Light",
           "dark": "Dark",
-		  "original": "Original"
+          "original": "Original"
         }
       },
-	  "type": {
+      "type": {
         "order": 6,
         "title": "Type",
         "format": "radios",
