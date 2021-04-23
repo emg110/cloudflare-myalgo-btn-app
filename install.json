@@ -54,27 +54,45 @@
         "order": 2,
         "title": "Width",
         "type": "number",
-		"default": 128
+		"default": 0
       },
 	  "height": {
         "order": 3,
         "title": "Height",
         "type": "number",
-		"default": 25
-      },
+		"default": 0
+      },	
       "theme": {
-        "order": 4,
+        "order": 5,
         "title": "Theme",
         "format": "radios",
         "type": "string",
-        "default": "dark",
+        "default": "original",
         "enum": [
-          "dark",
-          "light"
+			"light",
+			"dark",
+			"original"
+          
         ],
         "enumNames": {
           "light": "Light",
-          "dark": "Dark"
+          "dark": "Dark",
+		  "original": "Original"
+        }
+      },
+	  "type": {
+        "order": 6,
+        "title": "Type",
+        "format": "radios",
+        "type": "string",
+        "default": "logotext",
+        "enum": [
+          "logo",
+          "logotext"
+        ],
+        "enumNames": {
+          "logo": "Logo",
+          "logotext": "Logo & Text"
         }
       }
     }
