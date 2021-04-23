@@ -1,10 +1,17 @@
 ![myalgo-logo](./media/my-algo.png)
 # CloudFlare MyAlgo Button App
 
-Let your visitors summon their MyAlgo Wallet directly from your website.
-This is the simplest way of integrating MyAlgo wallet to your website!
-This APP will create a button and a subdomain CNAME record, based on your declared subdomain name parameter value during installation, on your site's DNS, by the name of YOUR-SUB-DOMAIN.YOUR-DOMAIN-NAME (e.g. myalgo.yourdomain.com).
-This way the myalgo subdomain of your website will be always pointing to MyAlgo wallet access URL while there is a customizable button on your site to call it.
+Let your visitors summon their MyAlgo Wallet directly from your website!
+
+
+This is the simplest way of integrating MyAlgo wallet to your website! This APP will create a button and a subdomain CNAME record, based on your declared subdomain name parameter value during installation, on your site's DNS, by the name of YOUR-SUB-DOMAIN.YOUR-DOMAIN-NAME (e.g. myalgo.yourdomain.com). This way the myalgo subdomain of your website will be always pointing to MyAlgo wallet access URL while there is a customizable button on your site to call it.
+
+This is a simple first step contribution to make the initial integration step toward integration of Algorand and Cloudflare platforms & services.
+No data is taken from users by this App and all it does is openning MyAlgo wallet access url in a new tab. Apps with deep integration to MyAlgo wallet using myalgo-connect as well as app with direct Algorand API access are on their way out to CloudFlare platform.
+
+I (emg110@gmail.com) developed this App as a starting ground to get familiar with the process of Cloudflare App registration via a simpler scenario to move further with more complicated App scenarios ahead. 
+
+I am not the author , owner or even affiliated to RandLab's MyAlgo. I just love it and want to extend the availablity. All images, banners and logos used in this App and it's GitHub repository belong to Randlabs MyAlgo wallet service.
 
 ## Usage
 
@@ -51,6 +58,7 @@ All media asset files are located here.
 Author wishes to give thanks and salute both `Algorand` & `CloudFlare` platforms and services, also all amzing opensource libraries used to write & build this code.
 
 As an Algorand ambassidor author intends to contribute more complex and handy tools to strenthen the integration between these two amazing services, started by this tiny , simple and humble one button App!
+
 
 
 ### Links
