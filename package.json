@@ -2,7 +2,7 @@
   "name": "cloudflare-myalgo-btn-app",
   "version": "1.0.0",
   "description": "This CloudFlare APP integrates MyAlgo wallet link button and redirector subdomain to CloudFlare sites",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "set NODE_ENV=development && webpack --watch",
     "build": "set NODE_ENV=production && webpack",
